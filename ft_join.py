@@ -1,4 +1,4 @@
-def ft_join(lst, sep):
+def ft_join(lst, sep = " "):
     strr = ""
     for i in lst:
         strr += i
