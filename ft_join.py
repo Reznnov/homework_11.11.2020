@@ -8,7 +8,7 @@ def ft_len(s):
 def ft_join(lst, sep=" "):
     strr = ''
     dlin = ft_len(lst)
-    for i in (dlin):
+    for i in range(dlin):
         if i == dlin - 1:
             strr += lst[i]
         else:
