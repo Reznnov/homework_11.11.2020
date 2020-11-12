@@ -5,12 +5,12 @@ def ft_len(s):
     return num
 
 
-def ft_join(lst, sep=" "):
+def ft_join(lst, se=" "):
     strr = ''
     dlin = ft_len(lst)
     for i in range(dlin):
         if i == dlin - 1:
             strr += lst[i]
         else:
-            strr += lst[i] + sep
+            strr += lst[i] + se
     return strr
