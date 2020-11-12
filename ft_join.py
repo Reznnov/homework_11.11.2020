@@ -1,6 +1,16 @@
-def ft_join(lst, sep=""):
+def ft_len(str):
+    num = 0
+    for i in str:
+        num += 1
+    return num
+
+
+def ft_join(lst, sep=" "):
     strr = ""
-    for i in lst:
-        strr += i
-        strr += sep
+    dlin = ft_len(lst)
+    for i in (dlin):
+        if i == dlin - 1:
+            strr += lst[i]
+        else:
+            strr += lst[i] + sep
     return strr
